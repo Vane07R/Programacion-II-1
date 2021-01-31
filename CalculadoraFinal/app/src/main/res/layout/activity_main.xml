@@ -165,7 +165,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtnumero2"
-        android:layout_marginTop="74dp"
+        android:layout_marginTop="71dp"
         android:onClick="calcular"
         android:text="CALCULAR"
         tools:ignore="MissingConstraints"
