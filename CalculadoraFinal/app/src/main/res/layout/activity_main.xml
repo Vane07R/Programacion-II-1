@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/lbltitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="OPERACIONES BASICAS"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <EditText
+        android:id="@+id/txtnumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbltitulo"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:hint="Ingrese el número 1"
+        android:inputType="number"
+        android:orientation="vertical"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <EditText
+        android:id="@+id/txtnumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtnumero1"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:hint="Ingrese el número 2"
+        android:inputType="number"
+        android:orientation="vertical"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <RadioGroup
+
+        android:id="@+id/optOperacionesBasicas"
+        android:layout_width="match_parent"
+        android:layout_height="466dp"
+        android:layout_below="@id/txtnumero2"
+        android:layout_marginTop="133dp"
+        android:gravity="clip_horizontal"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="126dp">
+
+        <RadioButton
+            android:id="@+id/optSuma"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="SUMA"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/optResta"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:text="RESTA"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/optDivision"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:text="DIVISIÓN"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/optMultiplicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="MULTIPLICACIÓN"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/optFactorial"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="FACTORIAL"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/optPorcentaje"
+            android:layout_width="126dp"
+            android:layout_height="34dp"
+            android:text="PORCENTAJE"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/optExponenciación"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXPONENCIACIÓN"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/optRaiz"
+            android:layout_width="76dp"
+            android:layout_height="38dp"
+            android:text="RAIZ"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/optModulo"
+            android:layout_width="91dp"
+            android:layout_height="34dp"
+            android:text="MÓDULO"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints" />
+
+        <RadioButton
+            android:id="@+id/optMayor"
+            android:layout_width="123dp"
+            android:layout_height="63dp"
+            android:text="Mayor de dos numeros"
+            android:textSize="14sp"
+            tools:ignore="MissingConstraints" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/lblrespuesta"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/txtnumero2"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="Resultado"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <Button
+        android:id="@+id/btncalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtnumero2"
+        android:layout_marginTop="74dp"
+        android:onClick="calcular"
+        android:text="CALCULAR"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+
+</RelativeLayout>
