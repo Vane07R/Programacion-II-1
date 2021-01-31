@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import static com.example.calculadora.R.id.numero1;
+
 public class MainActivity extends AppCompatActivity {
 
     private Button btn_suma;
@@ -23,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView text_respuesta;
 
-    private EditText edit_numero1;
+    private int edit_numero1;
     private EditText edit_numero2;
 
 
@@ -69,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
         btn_porcentaje = findViewById(R.id.button_porcentaje);
         btn_porcentaje.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -106,4 +107,5 @@ public class MainActivity extends AppCompatActivity {
         }
         return respuesta;
     }
+
 }
