@@ -10,6 +10,19 @@
         <item>Peso MX</item>
         <item>Euro</item>
         <item>Libra</item>
-        <item>Yuan</item>
+        <item>Yen</item>
     </string-array>
+    <string-array name="conversorLongitud">
+        <item>Micrones</item>
+        <item>Milimetros</item>
+        <item>Centimetros</item>
+        <item>Pulgadas</item>
+        <item>Pies</item>
+        <item>Yardas</item>
+        <item>Metros</item>
+        <item>Kilometros</item>
+        <item>Millas</item>
+        <item>Millas Nauticas</item>
+    </string-array>
+
 </resources>
