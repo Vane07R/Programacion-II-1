@@ -94,10 +94,6 @@
 
                 </RelativeLayout>
 
-
-
-
-
                 <RelativeLayout
                     android:id="@+id/tabMonedas"
                     android:layout_width="match_parent"
@@ -164,7 +160,6 @@
                         android:text="Calcular" />
 
                 </RelativeLayout>
-
 
                 <RelativeLayout
                     android:id="@+id/tabMasa"
