@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <target>android-30</target>
+      </config>
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8dd75a6-536a-4278-b640-444661fc22f6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oJRACTL4Fx5vj0hOV7z5MWRpDx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8dd75a6-536a-4278-b640-444661fc22f6" name="Default Changelist" comment="" />
+      <created>1613002560435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613002560435</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="100" width="1166" height="536" key="AVDManager" timestamp="1613004074719">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="100" y="100" width="1166" height="536" key="AVDManager/0.0.1366.736@0.0.1366.736" timestamp="1613004074719" />
+    <state x="542" y="193" key="AndroidCreateXmlResourceDialog" timestamp="1613003118855">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="542" y="193" key="AndroidCreateXmlResourceDialog/0.0.1366.736@0.0.1366.736" timestamp="1613003118855" />
+    <state x="184" y="13" key="SettingsEditor" timestamp="1613004074354">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="184" y="13" key="SettingsEditor/0.0.1366.736@0.0.1366.736" timestamp="1613004074354" />
+    <state x="339" y="166" key="run.anything.popup" timestamp="1613004194921">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="339" y="166" key="run.anything.popup/0.0.1366.736@0.0.1366.736" timestamp="1613004194921" />
+  </component>
+</project>
